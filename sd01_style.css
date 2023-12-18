@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+a:link{color:black;}
+a:hover{color:#007629;}
+.wrap {
+    background-position-x: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    margin-top: 122px;
+    width: 710px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul a{
+    margin-top: 26px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: -0.4px;
+}
+.background {
+    background-image: url(index_img/sd_back01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1987px;
+    position: relative;
+    margin: 0 auto;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 1044px;
+    height: 30px;
+}
+.tit01{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 186px;
+    height: 157px;
+    position: relative;
+    margin: 26px auto;
+}
+.txtset01{
+    width: 860px;
+    margin: 0 auto;
+    letter-spacing: -0.4px;
+    font-weight: 100;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+    .txt01{
+        margin-top: 846px;
+        font-size: 49px;
+        font-weight: 200;
+        font-family: 'Nanum Myeongjo', serif;
+    }
+    .txt02{
+        margin-top: 22px;
+        font-size: 20px;
+        font-weight: 100;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+.txtset02{
+    margin: 0 auto;
+    letter-spacing: -0.4px;
+    font-weight: 100;
+    text-align: left;
+    justify-content: left;
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+    .txt03{
+        margin-top: 23px;
+        margin-left: 325px;
+        font-size: 16px;
+        font-weight: 100;
+        width: 290px;
+    }
+    .txt04{
+        margin-top: -484px;
+        margin-left: 617px;
+        font-size: 16px;
+        font-weight: 100;
+        width: 285px;
+    }
+    .txt05{
+        margin-top: -346px;
+        margin-left: 910px;
+        font-size: 16px;
+        font-weight: 100;
+        width: 280px;
+    }
+.txtset03{
+    margin: 0 auto;
+    letter-spacing: -0.4px;
+    font-weight: 100;
+    text-align: right;
+    justify-content: right;
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    }
+    .txt06{
+        margin-top: 274px;
+        margin-left: 390px;
+        font-size: 14px;
+        font-weight: 100;
+        width: 800px;
+    }
